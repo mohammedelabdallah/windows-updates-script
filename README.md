@@ -51,7 +51,7 @@ This repository contains a PowerShell script that automates the Windows update a
    .\update_script.ps1
 3. **Change Execution Policy**:
 If you encounter a security warning, you may need to change the execution policy:
-powershell: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```powershell Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 4. **Check the Log File**:
 After running the script, check the log file (e.g., update_log.txt) for details on the updates installed and any errors that may have occurred.
 
