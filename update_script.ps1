@@ -1,4 +1,6 @@
 ﻿# Définition du fichier de log
+#Mohammed EL ABDALLAH
+#31/09/2024
 $logFile = "C:\Scripts\update_log.txt"
 function Write-Log {
     param ([string]$message)
