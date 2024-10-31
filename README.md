@@ -46,14 +46,14 @@ This repository contains a PowerShell script that automates the Windows update a
 2. **Run the Script**:  
    Navigate to the directory where the script is located and execute it:
 
-   ```powershell```
+   ```powershell
    cd path\to\your\script
    .\update_script.ps1
 
    
 3. **Change Execution Policy**:
 If you encounter a security warning, you may need to change the execution policy:
-```powershell```
+```powershell
  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
