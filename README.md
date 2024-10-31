@@ -53,7 +53,7 @@ This repository contains a PowerShell script that automates the Windows update a
    
 3. **Change Execution Policy**:
 If you encounter a security warning, you may need to change the execution policy:
-  ```powershell
+powershell
  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
